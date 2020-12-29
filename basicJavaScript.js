@@ -1,2 +1,1 @@
-var myFirstName = "John";
-var myLastName = "Smith";
+var myArray = ["Hello", 2]
