@@ -1,1 +1,4 @@
-var myArray = ["Hello", 2]
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction()
