@@ -1,4 +1,4 @@
-function reusableFunction() {
-  console.log("Hi World");
-}
-reusableFunction()
+function nextInLine (arr, item {
+  arr.push(item);
+  return arr.shif();
+})
