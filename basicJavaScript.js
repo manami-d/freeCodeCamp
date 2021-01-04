@@ -1,5 +1,8 @@
-function isLess(a, b) {
-  return a < b;
-}
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
 
-isLess(10, 15);
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["the drink"];
