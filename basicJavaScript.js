@@ -1,8 +1,8 @@
-var testObj = {
-  "an entree": "hamburger",
-  "my side": "veggies",
-  "the drink": "water"
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
 };
 
-var entreeValue = testObj["an entree"];
-var drinkValue = testObj["the drink"];
+myDog.name = "Happy Coder"
