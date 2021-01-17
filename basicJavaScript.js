@@ -1,8 +1,9 @@
-function multiplyAll(arr) {
-  for (var i = 0; i < arr.length; i++) {
-    for (var j = 0; j < arr[i].length; j++) {
-      product = product * arr [i][j];
-    }
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum - startNum === 0) {
+    return[startNum];
+  } else {
+    const arr = rangeOfNumbers(startNum, endNum - 1);
+    arr.push(endNum);
+    return arr;
   }
-  return product;
-}
+};
