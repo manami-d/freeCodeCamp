@@ -1,2 +1,2 @@
 # freeCodeCamp
-practicing courses on freeCodeCamp
+Practicing JavaScript courses contents on freeCodeCamp
